@@ -16,8 +16,3 @@ The tests will browse to the "Swag Labs" testing website (https://www.saucedemo.
 ## Test execution
     .\.venv\Scripts\activate
     python -m pytest .\tests --headed --slowmo 1000 --screenshot only-on-failure
-
-todo
-URL -> Tomarlas del .env
-Programmatically set base_url
-    pytest --base-url http://localhost:8080
